@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "std_001",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_1@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1001",
+    "body": "Hello, my name is Emily Davis. I noticed a charge on my account linked to user_1@examplecorp.com. You can reach my mobile at 555-0101 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_002",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_2@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1002",
+    "body": "Hello, my name is Michael Brown. I noticed a charge on my account linked to user_2@examplecorp.com. You can reach my mobile at 555-0102 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_003",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_3@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1003",
+    "body": "Hello, my name is Jessica Taylor. I noticed a charge on my account linked to user_3@examplecorp.com. You can reach my mobile at 555-0103 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_004",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_4@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1004",
+    "body": "Hello, my name is David Wilson. I noticed a charge on my account linked to user_4@examplecorp.com. You can reach my mobile at 555-0104 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_005",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_5@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1005",
+    "body": "Hello, my name is Sarah Miller. I noticed a charge on my account linked to user_5@examplecorp.com. You can reach my mobile at 555-0105 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_006",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_6@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1006",
+    "body": "Hello, my name is James Anderson. I noticed a charge on my account linked to user_6@examplecorp.com. You can reach my mobile at 555-0106 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_007",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_7@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1007",
+    "body": "Hello, my name is Lisa Thomas. I noticed a charge on my account linked to user_7@examplecorp.com. You can reach my mobile at 555-0107 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_008",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_8@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1008",
+    "body": "Hello, my name is Robert Jackson. I noticed a charge on my account linked to user_8@examplecorp.com. You can reach my mobile at 555-0108 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_009",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_9@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1009",
+    "body": "Hello, my name is Karen White. I noticed a charge on my account linked to user_9@examplecorp.com. You can reach my mobile at 555-0109 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_010",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_10@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1010",
+    "body": "Hello, my name is John Smith. I noticed a charge on my account linked to user_10@examplecorp.com. You can reach my mobile at 555-0110 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_011",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_11@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1011",
+    "body": "Hello, my name is Emily Davis. I noticed a charge on my account linked to user_11@examplecorp.com. You can reach my mobile at 555-0111 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_012",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_12@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1012",
+    "body": "Hello, my name is Michael Brown. I noticed a charge on my account linked to user_12@examplecorp.com. You can reach my mobile at 555-0112 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_013",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_13@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1013",
+    "body": "Hello, my name is Jessica Taylor. I noticed a charge on my account linked to user_13@examplecorp.com. You can reach my mobile at 555-0113 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_014",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_14@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1014",
+    "body": "Hello, my name is David Wilson. I noticed a charge on my account linked to user_14@examplecorp.com. You can reach my mobile at 555-0114 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_015",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_15@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1015",
+    "body": "Hello, my name is Sarah Miller. I noticed a charge on my account linked to user_15@examplecorp.com. You can reach my mobile at 555-0115 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_016",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_16@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1016",
+    "body": "Hello, my name is James Anderson. I noticed a charge on my account linked to user_16@examplecorp.com. You can reach my mobile at 555-0116 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_017",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_17@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1017",
+    "body": "Hello, my name is Lisa Thomas. I noticed a charge on my account linked to user_17@examplecorp.com. You can reach my mobile at 555-0117 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_018",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_18@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1018",
+    "body": "Hello, my name is Robert Jackson. I noticed a charge on my account linked to user_18@examplecorp.com. You can reach my mobile at 555-0118 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_019",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_19@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1019",
+    "body": "Hello, my name is Karen White. I noticed a charge on my account linked to user_19@examplecorp.com. You can reach my mobile at 555-0119 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_020",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_20@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1020",
+    "body": "Hello, my name is John Smith. I noticed a charge on my account linked to user_20@examplecorp.com. You can reach my mobile at 555-0120 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_021",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_21@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1021",
+    "body": "Hello, my name is Emily Davis. I noticed a charge on my account linked to user_21@examplecorp.com. You can reach my mobile at 555-0121 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_022",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_22@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1022",
+    "body": "Hello, my name is Michael Brown. I noticed a charge on my account linked to user_22@examplecorp.com. You can reach my mobile at 555-0122 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_023",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_23@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1023",
+    "body": "Hello, my name is Jessica Taylor. I noticed a charge on my account linked to user_23@examplecorp.com. You can reach my mobile at 555-0123 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_024",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_24@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1024",
+    "body": "Hello, my name is David Wilson. I noticed a charge on my account linked to user_24@examplecorp.com. You can reach my mobile at 555-0124 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_025",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_25@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1025",
+    "body": "Hello, my name is Sarah Miller. I noticed a charge on my account linked to user_25@examplecorp.com. You can reach my mobile at 555-0125 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_026",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_26@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1026",
+    "body": "Hello, my name is James Anderson. I noticed a charge on my account linked to user_26@examplecorp.com. You can reach my mobile at 555-0126 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_027",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_27@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1027",
+    "body": "Hello, my name is Lisa Thomas. I noticed a charge on my account linked to user_27@examplecorp.com. You can reach my mobile at 555-0127 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_028",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_28@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1028",
+    "body": "Hello, my name is Robert Jackson. I noticed a charge on my account linked to user_28@examplecorp.com. You can reach my mobile at 555-0128 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_029",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_29@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1029",
+    "body": "Hello, my name is Karen White. I noticed a charge on my account linked to user_29@examplecorp.com. You can reach my mobile at 555-0129 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "std_030",
+    "profile": "STANDARD_SUPPORT",
+    "sender": "user_30@examplecorp.com",
+    "subject": "Inquiry regarding billing invoice #1030",
+    "body": "Hello, my name is John Smith. I noticed a charge on my account linked to user_30@examplecorp.com. You can reach my mobile at 555-0130 if you need verification.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "hd_031",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "sarah.connor@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Sarah Connor",
+    "body": "CRITICAL: I am Sarah Connor. My SSN is 131-45-6031 and my billing card is 4111-2222-3333-4031. My registered home address is 404 Resistance Way, Los Angeles, CA. My primary callback is +1 (415) 555-1031 and backup email is sarah.connor@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_032",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "bruce.wayne@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Bruce Wayne",
+    "body": "CRITICAL: I am Bruce Wayne. My SSN is 132-45-6032 and my billing card is 4111-2222-3333-4032. My registered home address is 1007 Mountain Drive, Gotham City, NJ. My primary callback is +1 (415) 555-1032 and backup email is bruce.wayne@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_033",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "clark.kent@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Clark Kent",
+    "body": "CRITICAL: I am Clark Kent. My SSN is 133-45-6033 and my billing card is 4111-2222-3333-4033. My registered home address is 344 Clinton Street, Metropolis, NY. My primary callback is +1 (415) 555-1033 and backup email is clark.kent@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_034",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "diana.prince@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Diana Prince",
+    "body": "CRITICAL: I am Diana Prince. My SSN is 134-45-6034 and my billing card is 4111-2222-3333-4034. My registered home address is Gateway City Boulevard, Suite 10, DC. My primary callback is +1 (415) 555-1034 and backup email is diana.prince@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_035",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "arthur.dent@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Arthur Dent",
+    "body": "CRITICAL: I am Arthur Dent. My SSN is 135-45-6035 and my billing card is 4111-2222-3333-4035. My registered home address is 155 Country Lane, Cottington, UK. My primary callback is +1 (415) 555-1035 and backup email is arthur.dent@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_036",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "trillian.astra@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Trillian Astra",
+    "body": "CRITICAL: I am Trillian Astra. My SSN is 136-45-6036 and my billing card is 4111-2222-3333-4036. My registered home address is 42 Galaxy Expressway, Sector ZZ9, TX. My primary callback is +1 (415) 555-1036 and backup email is trillian.astra@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_037",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "peter.parker@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Peter Parker",
+    "body": "CRITICAL: I am Peter Parker. My SSN is 137-45-6037 and my billing card is 4111-2222-3333-4037. My registered home address is 20 Ingram Street, Forest Hills, NY. My primary callback is +1 (415) 555-1037 and backup email is peter.parker@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_038",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "tony.stark@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Tony Stark",
+    "body": "CRITICAL: I am Tony Stark. My SSN is 138-45-6038 and my billing card is 4111-2222-3333-4038. My registered home address is 10880 Malibu Point, Malibu, CA. My primary callback is +1 (415) 555-1038 and backup email is tony.stark@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_039",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "natasha.romanoff@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Natasha Romanoff",
+    "body": "CRITICAL: I am Natasha Romanoff. My SSN is 139-45-6039 and my billing card is 4111-2222-3333-4039. My registered home address is 5th Avenue Penthouse, New York, NY. My primary callback is +1 (415) 555-1039 and backup email is natasha.romanoff@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_040",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "steve.rogers@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Steve Rogers",
+    "body": "CRITICAL: I am Steve Rogers. My SSN is 140-45-6040 and my billing card is 4111-2222-3333-4040. My registered home address is 569 Leaman Place, Brooklyn, NY. My primary callback is +1 (415) 555-1040 and backup email is steve.rogers@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_041",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "sarah.connor@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Sarah Connor",
+    "body": "CRITICAL: I am Sarah Connor. My SSN is 141-45-6041 and my billing card is 4111-2222-3333-4041. My registered home address is 404 Resistance Way, Los Angeles, CA. My primary callback is +1 (415) 555-1041 and backup email is sarah.connor@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_042",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "bruce.wayne@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Bruce Wayne",
+    "body": "CRITICAL: I am Bruce Wayne. My SSN is 142-45-6042 and my billing card is 4111-2222-3333-4042. My registered home address is 1007 Mountain Drive, Gotham City, NJ. My primary callback is +1 (415) 555-1042 and backup email is bruce.wayne@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_043",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "clark.kent@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Clark Kent",
+    "body": "CRITICAL: I am Clark Kent. My SSN is 143-45-6043 and my billing card is 4111-2222-3333-4043. My registered home address is 344 Clinton Street, Metropolis, NY. My primary callback is +1 (415) 555-1043 and backup email is clark.kent@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_044",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "diana.prince@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Diana Prince",
+    "body": "CRITICAL: I am Diana Prince. My SSN is 144-45-6044 and my billing card is 4111-2222-3333-4044. My registered home address is Gateway City Boulevard, Suite 10, DC. My primary callback is +1 (415) 555-1044 and backup email is diana.prince@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_045",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "arthur.dent@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Arthur Dent",
+    "body": "CRITICAL: I am Arthur Dent. My SSN is 145-45-6045 and my billing card is 4111-2222-3333-4045. My registered home address is 155 Country Lane, Cottington, UK. My primary callback is +1 (415) 555-1045 and backup email is arthur.dent@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_046",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "trillian.astra@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Trillian Astra",
+    "body": "CRITICAL: I am Trillian Astra. My SSN is 146-45-6046 and my billing card is 4111-2222-3333-4046. My registered home address is 42 Galaxy Expressway, Sector ZZ9, TX. My primary callback is +1 (415) 555-1046 and backup email is trillian.astra@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_047",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "peter.parker@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Peter Parker",
+    "body": "CRITICAL: I am Peter Parker. My SSN is 147-45-6047 and my billing card is 4111-2222-3333-4047. My registered home address is 20 Ingram Street, Forest Hills, NY. My primary callback is +1 (415) 555-1047 and backup email is peter.parker@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_048",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "tony.stark@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Tony Stark",
+    "body": "CRITICAL: I am Tony Stark. My SSN is 148-45-6048 and my billing card is 4111-2222-3333-4048. My registered home address is 10880 Malibu Point, Malibu, CA. My primary callback is +1 (415) 555-1048 and backup email is tony.stark@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_049",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "natasha.romanoff@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Natasha Romanoff",
+    "body": "CRITICAL: I am Natasha Romanoff. My SSN is 149-45-6049 and my billing card is 4111-2222-3333-4049. My registered home address is 5th Avenue Penthouse, New York, NY. My primary callback is +1 (415) 555-1049 and backup email is natasha.romanoff@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_050",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "steve.rogers@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Steve Rogers",
+    "body": "CRITICAL: I am Steve Rogers. My SSN is 150-45-6050 and my billing card is 4111-2222-3333-4050. My registered home address is 569 Leaman Place, Brooklyn, NY. My primary callback is +1 (415) 555-1050 and backup email is steve.rogers@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_051",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "sarah.connor@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Sarah Connor",
+    "body": "CRITICAL: I am Sarah Connor. My SSN is 151-45-6051 and my billing card is 4111-2222-3333-4051. My registered home address is 404 Resistance Way, Los Angeles, CA. My primary callback is +1 (415) 555-1051 and backup email is sarah.connor@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_052",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "bruce.wayne@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Bruce Wayne",
+    "body": "CRITICAL: I am Bruce Wayne. My SSN is 152-45-6052 and my billing card is 4111-2222-3333-4052. My registered home address is 1007 Mountain Drive, Gotham City, NJ. My primary callback is +1 (415) 555-1052 and backup email is bruce.wayne@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_053",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "clark.kent@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Clark Kent",
+    "body": "CRITICAL: I am Clark Kent. My SSN is 153-45-6053 and my billing card is 4111-2222-3333-4053. My registered home address is 344 Clinton Street, Metropolis, NY. My primary callback is +1 (415) 555-1053 and backup email is clark.kent@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_054",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "diana.prince@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Diana Prince",
+    "body": "CRITICAL: I am Diana Prince. My SSN is 154-45-6054 and my billing card is 4111-2222-3333-4054. My registered home address is Gateway City Boulevard, Suite 10, DC. My primary callback is +1 (415) 555-1054 and backup email is diana.prince@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_055",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "arthur.dent@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Arthur Dent",
+    "body": "CRITICAL: I am Arthur Dent. My SSN is 155-45-6055 and my billing card is 4111-2222-3333-4055. My registered home address is 155 Country Lane, Cottington, UK. My primary callback is +1 (415) 555-1055 and backup email is arthur.dent@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_056",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "trillian.astra@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Trillian Astra",
+    "body": "CRITICAL: I am Trillian Astra. My SSN is 156-45-6056 and my billing card is 4111-2222-3333-4056. My registered home address is 42 Galaxy Expressway, Sector ZZ9, TX. My primary callback is +1 (415) 555-1056 and backup email is trillian.astra@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_057",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "peter.parker@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Peter Parker",
+    "body": "CRITICAL: I am Peter Parker. My SSN is 157-45-6057 and my billing card is 4111-2222-3333-4057. My registered home address is 20 Ingram Street, Forest Hills, NY. My primary callback is +1 (415) 555-1057 and backup email is peter.parker@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_058",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "tony.stark@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Tony Stark",
+    "body": "CRITICAL: I am Tony Stark. My SSN is 158-45-6058 and my billing card is 4111-2222-3333-4058. My registered home address is 10880 Malibu Point, Malibu, CA. My primary callback is +1 (415) 555-1058 and backup email is tony.stark@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_059",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "natasha.romanoff@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Natasha Romanoff",
+    "body": "CRITICAL: I am Natasha Romanoff. My SSN is 159-45-6059 and my billing card is 4111-2222-3333-4059. My registered home address is 5th Avenue Penthouse, New York, NY. My primary callback is +1 (415) 555-1059 and backup email is natasha.romanoff@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "hd_060",
+    "profile": "HIGH_DENSITY_PII",
+    "sender": "steve.rogers@enterprise-client.net",
+    "subject": "Emergency: Compromised account security for Steve Rogers",
+    "body": "CRITICAL: I am Steve Rogers. My SSN is 160-45-6060 and my billing card is 4111-2222-3333-4060. My registered home address is 569 Leaman Place, Brooklyn, NY. My primary callback is +1 (415) 555-1060 and backup email is steve.rogers@enterprise-client.net. Please resolve immediately.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": true
+  },
+  {
+    "id": "adv_061",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "external_adv@untrusted.org",
+    "subject": "Confidential correspondence",
+    "body": "My social is 9 - 8 - 7 - 6 5 - 4 3 2 1. Please update my file.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_062",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "external_adv@untrusted.org",
+    "subject": "Confidential correspondence",
+    "body": "Contact me via alex dot smith [at] protonmail dot com for secret comms.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "adv_063",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "external_adv@untrusted.org",
+    "subject": "Confidential correspondence",
+    "body": "Customer phone is +84 912 345 678, living in Hanoi, Vietnam.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "adv_064",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "external_adv@untrusted.org",
+    "subject": "Confidential correspondence",
+    "body": "Card details: 5 5 0 0 - 1 2 3 4 - 5 6 7 8 - 9 0 1 2 exp 12/28.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": true
+  },
+  {
+    "id": "adv_065",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "external_adv@untrusted.org",
+    "subject": "Confidential correspondence",
+    "body": "My name is Johnathan 'The Wolf' Doe, reach me at johnny(at)cyber-shield.io",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "adv_066",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "external_adv@untrusted.org",
+    "subject": "Confidential correspondence",
+    "body": "SSN: 0 0 1 - 0 2 - 0 0 0 3, employee name Marcus Vance.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_067",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "external_adv@untrusted.org",
+    "subject": "Confidential correspondence",
+    "body": "Vietnamese client Nguyen Van An, phone 0903-123-456, address 12 Le Loi Street, Da Nang.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "adv_068",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "external_adv@untrusted.org",
+    "subject": "Confidential correspondence",
+    "body": "UK user Arthur Pendragon, phone +44 20 7946 0919, Camelot Lane, London.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "adv_069",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "external_adv@untrusted.org",
+    "subject": "Confidential correspondence",
+    "body": "Spaced phone number: 1 - 8 0 0 - 5 5 5 - 0 1 9 9.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "adv_070",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "external_adv@untrusted.org",
+    "subject": "Confidential correspondence",
+    "body": "Please refund Mrs. Eleanor Vance, residing at 742 Evergreen Terrace.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "BILLING"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "adv_071",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_71@privacy-test.io",
+    "subject": "Urgent update requested for ID #9071",
+    "body": "Note from client: my SSN is 271 - 55 - 7071. You can email support [at] mycorp [dot] com or call 098-071-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_072",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_72@privacy-test.io",
+    "subject": "Urgent update requested for ID #9072",
+    "body": "Note from client: my SSN is 272 - 55 - 7072. You can email support [at] mycorp [dot] com or call 098-072-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_073",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_73@privacy-test.io",
+    "subject": "Urgent update requested for ID #9073",
+    "body": "Note from client: my SSN is 273 - 55 - 7073. You can email support [at] mycorp [dot] com or call 098-073-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_074",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_74@privacy-test.io",
+    "subject": "Urgent update requested for ID #9074",
+    "body": "Note from client: my SSN is 274 - 55 - 7074. You can email support [at] mycorp [dot] com or call 098-074-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_075",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_75@privacy-test.io",
+    "subject": "Urgent update requested for ID #9075",
+    "body": "Note from client: my SSN is 275 - 55 - 7075. You can email support [at] mycorp [dot] com or call 098-075-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_076",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_76@privacy-test.io",
+    "subject": "Urgent update requested for ID #9076",
+    "body": "Note from client: my SSN is 276 - 55 - 7076. You can email support [at] mycorp [dot] com or call 098-076-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_077",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_77@privacy-test.io",
+    "subject": "Urgent update requested for ID #9077",
+    "body": "Note from client: my SSN is 277 - 55 - 7077. You can email support [at] mycorp [dot] com or call 098-077-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_078",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_78@privacy-test.io",
+    "subject": "Urgent update requested for ID #9078",
+    "body": "Note from client: my SSN is 278 - 55 - 7078. You can email support [at] mycorp [dot] com or call 098-078-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_079",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_79@privacy-test.io",
+    "subject": "Urgent update requested for ID #9079",
+    "body": "Note from client: my SSN is 279 - 55 - 7079. You can email support [at] mycorp [dot] com or call 098-079-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_080",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_80@privacy-test.io",
+    "subject": "Urgent update requested for ID #9080",
+    "body": "Note from client: my SSN is 280 - 55 - 7080. You can email support [at] mycorp [dot] com or call 098-080-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_081",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_81@privacy-test.io",
+    "subject": "Urgent update requested for ID #9081",
+    "body": "Note from client: my SSN is 281 - 55 - 7081. You can email support [at] mycorp [dot] com or call 098-081-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_082",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_82@privacy-test.io",
+    "subject": "Urgent update requested for ID #9082",
+    "body": "Note from client: my SSN is 282 - 55 - 7082. You can email support [at] mycorp [dot] com or call 098-082-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_083",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_83@privacy-test.io",
+    "subject": "Urgent update requested for ID #9083",
+    "body": "Note from client: my SSN is 283 - 55 - 7083. You can email support [at] mycorp [dot] com or call 098-083-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_084",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_84@privacy-test.io",
+    "subject": "Urgent update requested for ID #9084",
+    "body": "Note from client: my SSN is 284 - 55 - 7084. You can email support [at] mycorp [dot] com or call 098-084-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "adv_085",
+    "profile": "ADVERSARIAL_OBFUSCATED",
+    "sender": "obfuscated_user_85@privacy-test.io",
+    "subject": "Urgent update requested for ID #9085",
+    "body": "Note from client: my SSN is 285 - 55 - 7085. You can email support [at] mycorp [dot] com or call 098-085-1122.",
+    "ground_truth_has_pii": true,
+    "expected_categories": [
+      "SECURITY_INCIDENT",
+      "ACCOUNT_ACCESS"
+    ],
+    "contains_ssn": true,
+    "contains_card": false
+  },
+  {
+    "id": "non_086",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: Server crashed with error ERR-404-992 on cluster n",
+    "body": "Server crashed with error ERR-404-992 on cluster node 12. Need sysadmin support.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "non_087",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: Upgrading MacBook Pro to Windows 11 under VMware w",
+    "body": "Upgrading MacBook Pro to Windows 11 under VMware workstation. Encountering kernel panic.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "non_088",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: Product SKU-88219-X has incorrect pricing in catal",
+    "body": "Product SKU-88219-X has incorrect pricing in catalog. Please check ERP sync.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "non_089",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: Docker container failed with exit code 137 OOMKill",
+    "body": "Docker container failed with exit code 137 OOMKilled on Redis instance 6379.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "non_090",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: API latency exceeded 500ms on endpoint /api/v2/met",
+    "body": "API latency exceeded 500ms on endpoint /api/v2/metrics with status 504 gateway timeout.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "non_091",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: Release v2.14.0 deployment checklist for Kubernete",
+    "body": "Release v2.14.0 deployment checklist for Kubernetes cluster eu-west-1.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "non_092",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: PostgreSQL database vacuum running slow on table a",
+    "body": "PostgreSQL database vacuum running slow on table audit_logs with index idx_timestamp.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "non_093",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: Slack webhook integration failing with invalid_aut",
+    "body": "Slack webhook integration failing with invalid_auth token err_code 998.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "non_094",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: Kafka topic customer_events lag has increased to 4",
+    "body": "Kafka topic customer_events lag has increased to 450,000 partitions.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "non_095",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: Bug report: Chrome version 128.0.6613.119 font ren",
+    "body": "Bug report: Chrome version 128.0.6613.119 font rendering distortion on Canvas API.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "non_096",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: System monitor: CPU spike 98% on host i-0abcdef123",
+    "body": "System monitor: CPU spike 98% on host i-0abcdef1234567890 running Ubuntu 24.04.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "non_097",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: Feature request: add dark mode support to the repo",
+    "body": "Feature request: add dark mode support to the reporting dashboard.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "non_098",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: Documentation discrepancy on section 4.2 regarding",
+    "body": "Documentation discrepancy on section 4.2 regarding rate limits per IP range 10.0.0.0/8.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "non_099",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: Automated backup job finished with status code 0, ",
+    "body": "Automated backup job finished with status code 0, archive size 42.8 GB.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  },
+  {
+    "id": "non_100",
+    "profile": "EDGE_CASE_NON_PII",
+    "sender": "automated_system@infra.internal",
+    "subject": "Infrastructure Telemetry Notification: GitLab CI runner disk space full at /var/lib/docke",
+    "body": "GitLab CI runner disk space full at /var/lib/docker/overlay2. Need volume expansion.",
+    "ground_truth_has_pii": false,
+    "expected_categories": [
+      "TECHNICAL_SUPPORT",
+      "GENERAL_INQUIRY"
+    ],
+    "contains_ssn": false,
+    "contains_card": false
+  }
+]

@@ -1,0 +1,84 @@
+version: "3.9"
+
+services:
+  # 1. Distributed Ingestion Broker (Redis Streams)
+  redis:
+    image: redis:7.2-alpine
+    container_name: pii-workflow-redis
+    command: ["redis-server", "--appendonly", "yes", "--maxmemory", "512mb", "--maxmemory-policy", "noeviction"]
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+
+  # 2. Downstream Enterprise Target (Mock Jira / Zendesk API)
+  mock_jira:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.mock_api
+    container_name: pii-workflow-mock-jira
+    ports:
+      - "8001:8001"
+    environment:
+      - PYTHONUNBUFFERED=1
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8001/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+
+  # 3. FastAPI Ingestion & Governance API Gateway
+  api_gateway:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pii-workflow-api
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - REDIS_URL=redis://redis:6379/0
+      - DOWNSTREAM_API_BASE_URL=http://mock_jira:8001
+      - DOWNSTREAM_API_TOKEN=mock_jira_token_secure_9921
+      - KMS_PROVIDER=local_envelope
+      - ENABLE_CASCADE_ROUTING=true
+      - ENABLE_HITL_FOR_SECURITY_INCIDENTS=true
+    depends_on:
+      redis:
+        condition: service_healthy
+      mock_jira:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # 4. Distributed LangGraph Stream Worker Pool
+  stream_worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pii-workflow-worker
+    entrypoint: ["python", "src/workers/consumer.py"]
+    environment:
+      - ENVIRONMENT=production
+      - REDIS_URL=redis://redis:6379/0
+      - DOWNSTREAM_API_BASE_URL=http://mock_jira:8001
+      - DOWNSTREAM_API_TOKEN=mock_jira_token_secure_9921
+      - WORKER_ID=worker_docker_pool_1
+      - MAX_CONCURRENT_TASKS=16
+      - KMS_PROVIDER=local_envelope
+      - ENABLE_CASCADE_ROUTING=true
+    depends_on:
+      redis:
+        condition: service_healthy
+      mock_jira:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  redis_data:

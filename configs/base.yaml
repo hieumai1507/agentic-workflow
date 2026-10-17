@@ -1,0 +1,28 @@
+app_name: "Agentic PII Masking Workflow"
+environment: "development"
+log_level: "INFO"
+
+redis:
+  url: "redis://localhost:6379/0"
+  stream_name: "email_ingestion_stream"
+  group_name: "agentic_masking_workers"
+  dlq_stream_name: "email_dlq_stream"
+  max_concurrent_tasks: 16
+  autoclaim_min_idle_ms: 90000
+
+llm:
+  model_name: "gpt-4o-mini"
+  temperature: 0.0
+  max_retries: 3
+  timeout_seconds: 15.0
+
+downstream:
+  api_base_url: "http://localhost:8001"
+  api_token: "mock_jira_zendesk_token_secure_9921"
+  timeout_seconds: 10.0
+  max_retries: 3
+
+typesafe_ai:
+  endpoint: "https://api.typesafe.ai/v1/systemone"
+  model: "jev-1.13"
+  confidence_threshold: 0.90

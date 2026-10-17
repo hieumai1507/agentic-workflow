@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:7.2-alpine
+    container_name: pii_workflow_redis
+    ports:
+      - "6379:6379"
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  mock_jira:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.mock_api
+    container_name: pii_workflow_mock_jira
+    ports:
+      - "8001:8001"
+    environment:
+      - PYTHONUNBUFFERED=1
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8001/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  api_gateway:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.api
+    container_name: pii_workflow_api
+    ports:
+      - "8000:8000"
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - DOWNSTREAM_API_BASE_URL=http://mock_jira:8001
+      - DOWNSTREAM_API_TOKEN=mock_jira_token_secure_9921
+    depends_on:
+      redis:
+        condition: service_healthy
+      mock_jira:
+        condition: service_healthy
+
+  graph_worker:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.worker
+    container_name: pii_workflow_worker
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - DOWNSTREAM_API_BASE_URL=http://mock_jira:8001
+      - DOWNSTREAM_API_TOKEN=mock_jira_token_secure_9921
+      - WORKER_ID=worker_docker_1
+    depends_on:
+      redis:
+        condition: service_healthy
+      mock_jira:
+        condition: service_healthy
+
+volumes:
+  redis_data:

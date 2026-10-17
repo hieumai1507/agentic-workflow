@@ -1,0 +1,75 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pii-workflow-worker
+  namespace: ai-workflow
+  labels:
+    app.kubernetes.io/name: pii-workflow-worker
+    app.kubernetes.io/part-of: ai-infrastructure
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: pii-workflow-worker
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 2
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: pii-workflow-worker
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 10001
+        runAsGroup: 10001
+        fsGroup: 10001
+      containers:
+        - name: stream-worker
+          image: ghcr.io/your-org/agentic-pii-masking-workflow:latest
+          imagePullPolicy: IfNotPresent
+          command: ["python", "src/workers/consumer.py"]
+          envFrom:
+            - configMapRef:
+                name: pii-workflow-config
+            - secretRef:
+                name: pii-workflow-secrets
+          env:
+            - name: WORKER_ID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop: ["ALL"]
+          resources:
+            requests:
+              cpu: "500m"
+              memory: "1Gi"
+            limits:
+              cpu: "2000m"
+              memory: "2Gi"
+---
+# Horizontal Pod Autoscaler (HPA) for Stream Workers
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: pii-workflow-worker-hpa
+  namespace: ai-workflow
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: pii-workflow-worker
+  minReplicas: 2
+  maxReplicas: 16
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: 75

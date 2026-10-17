@@ -1,0 +1,9 @@
+version: "1.0.0"
+description: "Prompt addendum injected when validator detects residual PII or schema errors"
+feedback_template: |
+  CRITICAL PREVIOUS FAILURE NOTICE:
+  Your previous masking attempt failed validation due to the following reasons:
+  {error_list}
+
+  You MUST fix these residual PII leaks or schema violations immediately.
+  Ensure that no personal names, physical addresses, phones, emails, or credentials remain unmasked.

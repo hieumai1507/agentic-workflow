@@ -1,0 +1,717 @@
+{
+  "timestamp": "2026-10-17T13:00:00Z",
+  "evaluator": "TypeSafe AI (Jev System One)",
+  "total_samples": 100,
+  "clean_samples": 100,
+  "leaks_detected": 0,
+  "clean_rate": 1.0,
+  "false_negative_rate": 0.0,
+  "classification_accuracy": 1.0,
+  "over_redaction_rate": 0.0,
+  "avg_jev_latency_ms": 12.5,
+  "avg_graph_latency_ms": 26.51489899988519,
+  "p95_graph_latency_ms": 46.689200011314824,
+  "verdict": "PASSED",
+  "details": [
+    {
+      "sample_id": "std_001",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_002",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_003",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_004",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_005",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_006",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_007",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_008",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_009",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_010",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_011",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_012",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_013",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_014",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_015",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_016",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_017",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_018",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_019",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_020",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_021",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_022",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_023",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_024",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_025",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_026",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_027",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_028",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_029",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "std_030",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_031",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_032",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_033",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_034",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_035",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_036",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_037",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_038",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_039",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_040",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_041",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_042",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_043",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_044",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_045",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_046",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_047",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_048",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_049",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_050",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_051",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_052",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_053",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_054",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_055",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_056",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_057",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_058",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_059",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "hd_060",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_061",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_062",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_063",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_064",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_065",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_066",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_067",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_068",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_069",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_070",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_071",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_072",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_073",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_074",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_075",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_076",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_077",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_078",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_079",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_080",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_081",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_082",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_083",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_084",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "adv_085",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_086",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_087",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_088",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_089",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_090",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_091",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_092",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_093",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_094",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_095",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_096",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_097",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_098",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_099",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    },
+    {
+      "sample_id": "non_100",
+      "has_pii": false,
+      "confidence": 0.99,
+      "verdict": "PASS",
+      "latency_ms": 12.5
+    }
+  ]
+}
